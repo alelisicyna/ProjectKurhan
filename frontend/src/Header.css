@@ -1,0 +1,111 @@
+.header {
+  background-image: url(http://kalinouski.arkushy.by/images/art/sierhiewicz_kkiwurap.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  border-bottom: 1px solid black;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.88);
+  border: 80px solid rgba(0, 0, 0, 0.88);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.lang {
+  margin-left: 87%;
+}
+
+.language-select {
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+  border: 8px solid transparent;
+  outline: 1px solid white;
+}
+
+.language-select option {
+  background-color: black;
+}
+
+.links {
+  margin-top: 10px;
+  float: right;
+  display: flex;
+}
+
+.telegram-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  white-space: nowrap;
+  color: white;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  max-height: 30px;
+}
+
+.telegram-link:hover {
+  border: 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.donate-link {
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  white-space: nowrap;
+  color: white;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  max-height: 30px;
+}
+
+.donate-link:hover {
+  border: 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.repository-link {
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  white-space: nowrap;
+  color: white;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  max-height: 30px;
+}
+
+.repository-link:hover {
+  border: 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.github-link {
+  margin-left: 4%;
+}
+
+.github-link img {
+  white-space: nowrap;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+}
+
+.github-link a {
+  max-width: 50px;
+}
+
+.logo {
+  font-size: 40px;
+  margin-right: 70%;
+}
+
+.quote {
+  margin-right: 25%
+}

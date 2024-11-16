@@ -1,0 +1,42 @@
+.content {
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-top: 5%;
+  margin-left: 32%;
+}
+
+.kanvertar {
+  max-width: 200px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 5%;
+  color: white;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  max-height: 30px;
+}
+
+.kantent {
+  max-width: 200px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  color: white;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  max-height: 30px;
+}
+
+a {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 15px;
+}
