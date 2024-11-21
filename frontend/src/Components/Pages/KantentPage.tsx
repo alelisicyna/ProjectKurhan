@@ -2,6 +2,7 @@ import './KantentPage.css'
 
 import {useState, useEffect} from 'react'
 import axios from 'axios';
+import Header from '../Header.tsx'
 
 
 function KantentPage() {
@@ -16,7 +17,8 @@ function KantentPage() {
 
   return (
     <div>
-    kantent
+      <Header />
+      kantent
     </div>
   );
 }

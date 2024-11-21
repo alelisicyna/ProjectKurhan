@@ -1,0 +1,75 @@
+.content {
+  text-align: center;
+  font-size: 1.5em;
+  max-width: 400px;
+  margin-left: 30%;
+}
+
+.textfield {
+  outline: none;
+  background-color: #2b2a33;
+  text-align: center;
+  resize: none;
+  width: 400px;
+  height: 120px;
+}
+
+.result {
+  margin-top: 1%;
+  background-color: #2b2a33;
+  color: white;
+  outline: none;
+  text-align: center;
+  max-width: 400px;
+  min-height: 120px;
+}
+
+.result a {
+  font-size: 16px;
+}
+
+.settings {
+  background-color: transparent;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  width: 400px;
+  text-align: right;
+}
+
+#alphabet {
+  background-color: transparent;
+  border: 20px solid transparent;
+  outline: 1px solid white;
+  width: 400px;
+}
+
+option {
+  background-color: rgb(13, 13, 15);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.convert {
+  font-size: 1.2em;
+  background-color: transparent;
+  border: 2em solid transparent;
+  outline: 1px solid white;
+  color: white;
+  width: 400px;
+}
+
+.copy {
+  font-size: 1.2em;
+  margin-top: 3%;
+  background-color: transparent;
+  border: 2em solid transparent;
+  outline: 1px solid white;
+  color: white;
+  width: 400px;
+}
+
+p {
+  font-size: 1.5em;
+}
