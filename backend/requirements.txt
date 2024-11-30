@@ -1,1 +1,2 @@
 fastapi==0.115.4
+belarusianconverter==0.0.6
