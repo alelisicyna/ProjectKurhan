@@ -1,0 +1,44 @@
+
+.image {
+  display: none;
+}
+
+.home-img {
+  max-width: 100%;
+}
+
+.imgWrapper {
+  pointer-events: none;
+  opacity: 0.06;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+@keyframes blender {
+  0% {
+    opacity: 0;
+  }
+  
+  30% {
+    opacity: 1;
+  }
+  
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+.imageActive {
+  width: cover;
+  object-fit: cover;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: blender 5s linear 50ms;
+}

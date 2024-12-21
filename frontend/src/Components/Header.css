@@ -1,0 +1,423 @@
+.fade {
+  animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+  .show-background {
+    display: none;
+  }
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: lighten;
+    border: 4em solid rgba(0, 0, 0, 0.0);
+    width: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+  .mobile-background {
+    background-image: url(https://lh6.googleusercontent.com/proxy/2Pr7DnKahf1YRzq7WcwabuO150C5BMQBoLoAqpSOy1SDnhQG82B2hHeQHWzLB868fE3-gWKoITnBKFZyzGO20ryPijB1zNnJVg);
+    background-size: cover;
+  }
+
+  .logo {
+    margin-top: 10%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 170%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: none;
+    margin-left: 38%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .show-background {
+    display: none;
+  }
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: lighten;
+    border: 4em solid rgba(0, 0, 0, 0.0);
+    width: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+  .mobile-background {
+    background-image: url(https://lh6.googleusercontent.com/proxy/2Pr7DnKahf1YRzq7WcwabuO150C5BMQBoLoAqpSOy1SDnhQG82B2hHeQHWzLB868fE3-gWKoITnBKFZyzGO20ryPijB1zNnJVg);
+    background-size: cover;
+  }
+
+  .logo {
+    margin-top: 10%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 95%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: none;
+    margin-left: 38%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .show-background {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 10%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    font-size: 1.3em;
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 45%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: none;
+    margin-left: 18%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .show-background {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 10%;
+    margin-right: 60%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 8%
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 32%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: flex;
+    margin-left: 18%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 11999px) {
+  .show-background {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 10%;
+    margin-right: 60%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    margin-left: 8%
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 32%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: flex;
+    margin-left: 38%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
+
+@media (min-width: 1200px) {
+  .show-background {
+    display: block;
+  }
+
+  .logo {
+    margin-top: 10%;
+    margin-right: 60%;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 4em;
+  }
+
+  .quote {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 25%
+  }
+
+  .lang {
+    font-size: 0.9em;
+  }
+
+  .language-select {
+    max-width: 15em;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    border: 8px solid black;
+  }
+
+  .language-select option {
+    background-color: black;
+  }
+
+  .headerbottom {
+    margin-top: 32%;
+  }
+
+  .links {
+    font-size: 1em;
+    display: flex;
+    margin-left: 38%;
+  }
+
+  .button-link {
+    margin-top: 13.5%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+    border: 20px solid transparent;
+    outline: 1px solid white;
+    max-height: 30px;
+  }
+
+  .button-link:focus {
+    outline: 1px white solid;
+  }
+}
